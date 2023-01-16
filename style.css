@@ -1,0 +1,60 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+ul:nth-child(1) li:first-letter {
+    color: red;
+}
+
+li:hover {
+    background-color: aqua;
+}
+
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+#dropdown-content a {
+    color: black;
+
+    
+}
+
+#dropdown:hover {
+    background-color: aqua;
+     
+}
+
+
+#dropdown-content a {
+    display: block;
+    height: 50px;
+    width: 100px;
+    text-decoration: none;
+    position: relative;
+    right: 40px;
+}
+
+#dropdown:hover #dropdown-content {
+    display: block;
+}
+
+#dropdown-content a:hover {
+    background-color: aqua;
+}
+
+
